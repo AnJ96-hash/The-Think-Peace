@@ -51,3 +51,10 @@ google_fonts:
 navigation_pages:
   - about.md
   - cv.md
+ with:
+    token: ***
+    timeout: 600000
+    error_count: 10
+    reporting_interval: 5000
+    artifact_name: github-pages
+    preview: false
